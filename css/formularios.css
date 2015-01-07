@@ -1,0 +1,209 @@
+/*
+    Estilo para todos os formularios do sistema
+    Data de criacao: 18.02.2014
+    Versao: 0.1
+*/
+
+/*
+    TextBox: small, Normal e big
+*/
+.textBoxNormal{
+    border:solid 1px #f8f8f8;
+    background:url(../imagens/bg-conteudo2.png);
+    padding:4px 8px;
+    
+    
+    color:#c45454;
+    font-size:18pt;
+    font-family:Geneva, Verdana, Arial;
+    
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    -ms-border-radius:4px;
+}
+
+
+.textBoxSmall{
+    border:solid 1px #f8f8f8;
+    background:url(../imagens/bg-conteudo2.png);
+    padding:4px 8px;
+    
+    width:240px;
+    
+    
+    color:#c45454;
+    font-size:18pt;
+    font-family:Geneva, Verdana, Arial;
+    
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    -ms-border-radius:4px;
+}
+
+/*Botoes*/
+
+/*bnt Vermelho*/
+
+.bntVermelho{
+    background-color:#c45454;
+    border:solid 1px #f3f3f3;
+    padding:12px 24px;
+    
+    color:#f3f3f3;
+    text-align:center;
+    font-size:14pt;
+    
+    box-shadow: 0px 4px #2d6447;
+    -moz-box-shadow: 0px 4px #2d6447;
+    -webkit-box-shadow: 0px 4px #2d6447;
+    -o-box-shadow: 0px 4px #2d6447;
+    -ms-box-shadow: 0px 4px #2d6447;
+}
+
+.bntVermelho:hover{
+     background-color:#eb6565;
+}
+
+
+
+/*bntVermelhoSmall*/
+.bntVermelhoSmall{
+    background-color:#c45454;
+    border:solid 1px #f3f3f3;
+    padding:5px 8px;
+    
+    color:#f3f3f3;
+    text-align:center;
+    font-size:12pt;
+}
+
+.bntVermelhoSmall a label{
+    color:#fff;
+    text-decoration:none;
+}
+
+.bntVermelhoSmall:hover{
+    background-color:#eb6565;
+}
+
+/*bntVermelhoBig*/
+.bntVermelhoBig{
+    background-color:#c45454;
+    border:solid 1px #f3f3f3;
+    padding:20px 46px;
+    
+    color:#f3f3f3;
+    text-align:center;
+    font-size:18pt;
+}
+
+.bntVermelhoBig a label{
+    color:#fff;
+    text-decoration:none;
+}
+
+.bntVermelhoBig:hover{
+    background-color:#eb6565;
+}
+
+
+
+
+/*bnt Azul*/
+
+.bntAzul{
+    background-color:#54c3c4;
+    border:solid 1px #f3f3f3;
+    padding:10px 16px;
+    
+    color:#f3f3f3;
+    text-align:center;
+    font-size:13pt;
+}
+
+
+.bntAzul:hover{
+     background-color:#64e9ea;
+}
+
+
+/*ComboBox*/
+
+.comboBoxNormal{
+    border:solid 1px #f8f8f8;
+    background:url(../imagens/bg-conteudo2.png);
+    padding:4px 8px;
+    
+    font-size: 13pt;
+    color:#595959;
+}
+
+/* TextArea*/
+.textAreaNormal{
+    border:solid 1px #f8f8f8;
+    background:url(../imagens/bg-conteudo2.png);
+    padding:18px;
+    
+    font-size: 13pt;
+    color:#595959;
+}
+
+
+/*Tabela*/
+
+.table td{
+    padding:10px 20px;
+}
+
+.tableHeader{
+    background-color:#54c3c4;
+    
+    color:#000;
+    font-size:14pt;
+    font-family:'Arial Bleck, Arial, Verdana';
+}
+
+.tableRowBrancoBrilho{
+    background-color:#f4f4f4;
+    border-top:solid 1px #3faf75;
+    
+    color:#c45454;
+    font-size:12pt;
+    font-family:'Verdana, Arial';
+}
+
+.tableRowBrancoBrilho a{
+    color:#c45454;
+    text-decoration: none;
+}
+
+.tableRowBrancoBrilho a:hover{
+    color:#ff6d6d;
+    text-decoration: underline;
+}
+
+.tableRowBrancoFosco{
+    background-color:#d0e7db;
+    border-top:solid 1px #3faf75;
+    
+    color:#c45454;
+    font-size:12pt;
+    font-family:'Verdana, Arial';
+}
+
+.tableRowBrancoFosco a{
+    color:#c45454;
+    text-decoration: none;
+}
+
+.tableRowBrancoFosco a:hover{
+    color:#ff6d6d;
+    text-decoration: underline;
+}
+
+
+

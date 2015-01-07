@@ -1,0 +1,294 @@
+/*
+    Estilo principal do sistema
+    Data de criacao: 18.02.2014
+    Versao: 0.1
+*/
+
+/*Importa estilos auxiliares*/
+
+/*Formularios*/
+@import url('formularios.css');
+
+/*
+    Assets
+*/
+.caixa{
+    display:block;
+    padding:2px;
+    float:left;
+}
+
+/*Corrige o erro de flutuacao*/
+.corrigirFlutuacao{
+    clear:both;
+}
+
+/*Faz o elemento flutuar*/
+.flutuar{
+    float:left;
+}
+
+/*CentralizarDiv*/
+
+.centralizarDiv{
+    margin:0 auto;
+}
+
+
+/*
+    Estilo principal
+*/
+
+body{
+    background-color:#282828;
+    margin:0px;
+}
+
+h1, h2, h3, h4, h5, hr{
+    margin:0px;
+}
+
+#conteinerPrincipal{
+    width:1024px;
+    margin:0 auto;
+    background:url(../imagens/bg2.png);
+}
+
+
+
+
+/*
+    Estilos do Topo
+*/
+#topo{
+    height:28px;
+    width: 1016px;
+    background-color:#f8f8f8;
+    padding: 4px;
+}
+
+#topo label{
+    color:#0f7744;
+    font-family: verdana, arial;
+    font-size:13pt;
+}
+
+#topo #caixaUsuario{
+    position:relative;
+    left:925px;
+}
+
+#topo p{
+    margin:0px;
+    color:#0f7744;
+    font-family: verdana, arial;
+    font-size:16pt;
+    text-align:right;
+}
+
+#topo p a{
+    color:#c45454;
+    text-decoration:none;
+}
+
+
+
+/*Estilos do navBar*/
+#conteinerNavBar{
+    margin:24px 10px;
+    
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    -ms-border-radius:4px;
+}
+
+#conteinerNavBar .botaoFuncao{
+    margin:0px 5px;
+    min-width:100px;
+    height:26px;
+    padding:12px;
+    margin-top: 12px;
+    background-color:#f3f3f3;
+    
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    -ms-border-radius:4px;
+    
+    box-shadow: 0px 4px 0px #0f7744;
+    -moz-box-shadow: 0px 4px 0px #0f7744;
+    -webkit-box-shadow: 0px 4px 0px #0f7744;
+    -o-box-shadow: 0px 4px 0px #0f7744;
+    -ms-box-shadow: 0px 4px 0px #0f7744;
+}
+
+#conteinerNavBar .botaoFuncao a{
+    text-decoration:none;
+    color:#0f7744;
+}
+
+#conteinerNavBar .botaoFuncao a:hover{
+    text-decoration:none;
+    color:#c45454;
+}
+
+#conteinerNavBar .botaoFuncao label{
+    font-size:19pt;
+    font-family:Verdana, Arial;
+    color:#0f7744;
+    text-align:center;
+}
+
+
+/*Estilos do mapa de navegacao*/
+#conteinerMapa{
+    margin:0px 20px;
+    
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    -ms-border-radius:4px;
+}
+
+#conteinerMapa label{
+    font-size:10pt;
+    color:#e3e3e3;
+}
+
+#conteinerMapa label a{
+    text-decoration: none;
+    color:#f8f8f8;
+}
+
+#conteinerMapa label a:hover{
+    text-decoration: underline;
+    color:#c45454;
+}
+
+#conteinerMapa hr{
+    border:1px solid #f8f8f8;
+    width:80px;
+}
+
+
+/*
+Estilos da Zona de conteudo
+*/
+#zonaConteudo{
+    border:solid 1px #f8f8f8;
+    margin:20px;
+    padding:22px;
+    background: url(../imagens/bg-conteudo.png);
+    
+     border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    -ms-border-radius:4px;
+}
+
+#zonaConteudo h1{
+    font-family: Verdana, Arial;
+    font-weight:100;
+    font-size:32pt;
+    color:#f3f3f3;
+    text-align:center;
+    
+    text-shadow:0px 1px #0f7744;
+    -moz-text-shadow:0px 1px #0f7744;
+    -webkit-text-shadow:0px 1px #0f7744;
+    -o-text-shadow:0px 1px #0f7744;
+    -ms-text-shadow:0px 1px #0f7744;
+}
+
+#zonaConteudo label{
+    color:#f3f3f3;
+    font-family: Verdana, Arial;
+    font-size: 14pt;
+    
+    font-weight:100;
+    text-shadow:0px 1px #0f7744;
+    -moz-text-shadow:0px 1px #0f7744;
+    -webkit-text-shadow:0px 1px #0f7744;
+    -o-text-shadow:0px 1px #0f7744;
+    -ms-text-shadow:0px 1px #0f7744;
+}
+
+
+/*Estilos da dashBoard dentro da zona de conteudo*/
+
+#conteinerDashBoard{
+    width: 560px;
+}
+
+.conteinerElementoDashBoard{
+    width: 228px;
+    margin:16px;
+    color:#144c2b;
+    float: left;
+    font-family:geneva, arial;
+    font-size:18pt;
+    text-align: center;
+}
+
+.conteinerElementoDashBoard p a{
+    text-decoration:none;
+    color:#144c2b;
+}
+
+.conteinerElementoDashBoard p a:hover{
+    color:#c45454;
+}
+
+.conteinerElementoDashBoard .elementoDashBoard{
+    width: 228px;
+    height: 137px;
+    padding:30px 0px 0px 0px;
+    background-color:#c1ffdf;
+
+    /*sobra do elemento*/ 
+    box-shadow:0px 5px 0px #003017;
+    -moz-box-shadow:0px 5px 0px #003017;
+    -webkit-box-shadow:0px 5px 0px #003017;
+    -ms-box-shadow:0px 5px 0px #003017;
+    -o-box-shadow:0px 5px 0px #003017;
+
+    /*Arredondamento da borda*/
+    border-radius:16px;
+    -moz-border-radius:16px;
+    -webkit-border-radius:16px;
+    -ms-border-radius:16px;
+    -o-border-radius:16px;
+}
+
+
+/*
+Estilos do rodape
+*/
+
+#rodape{
+    height:46px;
+    width: 1008px;
+    padding: 8px;
+    background-color:#f8f8f8;
+}
+
+#rodape p{
+    color:#0f7744;
+    font-size:10pt;
+    text-align:center;
+}
+
+#rodape p a{
+    color:#0f7744;
+    text-decoration:none;
+}
+
+#rodape p a:hover{
+    color:#c45454;
+    text-decoration:underline;
+}
